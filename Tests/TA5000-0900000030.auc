@@ -1,0 +1,713 @@
+# ******************************************************************************
+# ADTRAN TA5000 System Release 09.00.00.0030 AUC file
+# ------------------------------------------------------------------------------
+# Modification Details
+#
+#  AG   07/21/2015     Create System Release 09.00.00.0030, Build#J00.0030/09.00.00.0030
+# ------------------------------------------------------------------------------
+# Code Revisions
+# <part>             <modulerev>        <comment>
+#
+#
+#
+# System Controller Modules
+#
+# 1187010L1          J00.028            # System Control Module
+#
+# 1187010L1A         J00.028            # System Control Module A
+#
+# 1187010L1M         J00.028            # System Control Module M
+#
+# 1187010L1Q         J00.028            # System Control Module Q
+#
+# 1187010L1R         J00.028            # System Control Module R
+#
+# 1187010L1V         J00.028            # System Control Module V
+#
+# 1188010E1          J00.028            # System Control Module Int'l
+#
+# 1187010G2          J00.028            # System Control Module G2
+#
+# 1187010G2A         J00.028            # System Control Module A
+#
+# 1187010G2R         J00.028            # System Control Module R
+#
+# 1187010G2V         J00.028            # System Control Module V
+#
+# 1188010G2          J00.028            # System Control Module Int'l G2
+#
+# 1187011G1          J00.028            # System Control Module 011 G1
+#
+# 1187011G1C         J00.028            # System Control Module 011 G1 C
+#
+# 1187011G1Q         J00.028            # System Control Module 011 G1 Q
+#
+# 1188011G1          J00.028            # System Control Module 011 G1 Int'l
+#
+# 1187016F1-SCM      J00.028            # System Control Module MSM 20 SCM
+#
+# 1187016F1R-SCM     J00.028            # SCM
+#
+# 1187010G3          J00.028            # System Control Module G3
+#
+# 1187010G3A         J00.028            # System Control Module G3 A
+#
+# 1188010G3          J00.028            # System Control Module Int'l G3
+#
+# 1187014F1-SCM      J00.028            # System Control Module
+#
+#
+#
+# Switch Modules 1G
+#
+# 1187020L1          J00.0027           # Switch Module
+#
+# 1187020E1          J00.0027           # Switch Module
+#
+# 1187020G1          J00.0027           # Switch Module 2GE No RG
+#
+# 1187020G2          J00.0027           # Switch Module 2GE RG
+#
+#
+#
+# Switch Modules 10G
+#
+# 1187025G1          J00.0027           # Switch Module-2.5 10G No RG
+#
+# 1187025G2          J00.0027           # Switch Module-2.5 10G RG
+#
+# 1187030G1          J00.0027           # Switch Module-5 10G No RG
+#
+# 1187030G2          J00.0027           # Switch Module-5 10G RG
+#
+# 1187030G3          J00.0027           # Switch Module-5 10G No RG
+#
+# 1187040F1          J00.0027           # Switch Module 4-10GE
+#
+# 1187016F1-SM       J00.0027           # MSM 20 SM
+#
+# 1187016F1R-SM      J00.0027           # MSM 20 SM
+#
+# 1187031F1          J00.0027           # BCM SM 10GE
+#
+#
+#
+# BBDLC Modules
+#
+# 1187100L1          J00.0002           # Combo A2+ 24 Port
+#
+# 1187100L2          J00.0002           # Combo A2+ 24 Port
+#
+# 1187120L1          J00.0002           # Combo V2 24 Port
+#
+# 1187130F1          J00.0030           # Combo V2 48 Port
+#
+# 1187130F2          J00.0027           # Combo V2 48 Port non-vectoring
+#
+# 1187150L1          J00.0002           # RPOTS 24 Port
+#
+# 1187520E1          G40.0003           # RPR 2.5G
+#
+# 1187550E1          J00.0002           # 4-Port GigE LM
+#
+# 1187550G2          J00.0002           # 4-Port GigE LM 2nd Gen
+#
+# 1187800L1          J00.0002           # Voice Gateway
+#
+# 1187801L1          J00.0002           # T1 32 Port Pseudowire
+#
+# 1187160F1          J00.0002           # 24-Port CPOTS LM
+#
+#
+#
+# IPDSLAM Modules
+#
+# 1187101E1          J00.0002           # ADSL2+ 32 Port
+#
+# 1187102G1          J00.0002           # ADSL2+ 32 Port CAT5e
+#
+# 1188101E1          J00.0002           # ADSL2+ 32 Port Int'l
+#
+# 1187121L1          J00.0002           # VDSL2 32 Port
+#
+# 1187121F2          J00.0002           # VDSL2 32 Port
+#
+# 1187122G1          J00.0002           # 32-Port VDSL2 DMT AM
+#
+# 1188122G1          J00.0002           # VDSL2 32 Port Int'l
+#
+# 1187133F1          J00.0030           # VDSL2 48 Port
+#
+# 1187133F2          J00.0030           # VDSL2 48 Port non-vectoring
+#
+# 1187190F1          J00.0023           # VDSL2 Vectory 192 RM split
+#
+#
+#
+# ATM Aggregation and Interworking
+#
+# 1187200L1          G43.0031           # ATM DS3 1-Port
+#
+# 1187201L1          G43.0031           # ATM DS3 4-Port
+#
+# 1187210E1          G43.0031           # ATM OC3 1-Port
+#
+# 1187211E1          G43.0031           # ATM OC3 4-Port
+#
+# 1187803G1          G43.0031           # ATM DS1 IMA 32-Port
+#
+#
+#
+# Business Services Migration
+#
+# 1187220G1          G43.0030           # 3-Port Ch DS3 MLPPP
+#
+# 1187803G2          G43.0030           # 32-Port DS1 MLPPP
+#
+# 1188803G2          G43.0030           # 32-Port E1 MLPPP
+#
+#
+#
+# FTTP
+#
+# 1187500E1          G40.0040           # GPON OLT 2-Port SFF
+#
+# 1187501G1          J00.0030           # GPON OLT 2-Port SFP
+#
+# 1187502F1          J00.0030           # GPON OLT 4-Port SFP
+#
+# 1187502F2          J00.0030           # GPON OLT 4-Port SFP
+#
+# 1187503F1          J00.0030           # GPON OLT 8-Port SFP
+#
+# 1187503F2          J00.0030           # GPON OLT 8-Port SFP
+#
+# 1187560F1          J00.0030           # Active Eth 24-Port
+
+# 1187561F1          J00.0030           # Active Ethernet SS
+#
+# 1187562F1          J00.0030           # Active Ethernet SS 2nd Gen
+#
+#
+#
+# Ethernet over Copper / TDM
+#
+# 1187180L1          J00.0002           # 32-Port SHDSL EFM AM
+#
+# 1187180G1          J00.0002           # 32-Port SHDSL EFM AM
+#
+# 1187181G1          J00.0002           # 24-Port SHDSL EFM AM
+#
+# 1187182F1          J00.0002           # 32-Port SHDSL EFM MLT
+#
+# 1188180E1          J00.0002           # 32-Port SHDSL EFM AM Int'l
+#
+# 1187802L1          J00.0002           # 32-Port DS1 EFM AM
+#
+# 1188802G1          J00.0002           # 32-Port E1 EFM AM
+#
+# 1187250G1          J00.0002           # EFM Bonding Protect Module
+#
+# 1187260G1          J00.0002           # 4-Port CC DS3 EFM LM
+#
+# 1187810G1          J00.0002           # 3-Port Ch DS3 EFM LM
+#
+# 1187300L1          J00.0002           # 8-Port T1 EFM AM
+#
+# 1187310L1          J00.0002           # 8-Port HDSL4 EFM AM
+#
+# 1187552G1          J00.0002           # 8-Port GigE LM
+#
+#
+#
+#
+#
+# ***************************************
+
+# BOM_Version 1.0
+
+# ***************************************
+
+
+
+# ***************************************
+
+# ***** Start of CommonSpec entries *****
+
+# ***************************************
+
+
+
+#Retries=5                # Number of times the SCU will attempt to re-retreive a flash firmware file via TFTP
+
+CacheExpire=480          # How long (in minutes) the SCU retains a flash file in cache
+
+refreshinterval=48       # Specifies how often (in hours) the SCU checks the TFTP server for config file updates
+
+#UpgradeMode=Auto         # Default UpgradeMode is 'MANUAL'
+
+SystemRelease 09.00.00.0030
+
+
+
+CommonEnd = 1322,FB49
+
+
+
+# ***************************************
+
+# ***** End of CommonSpec entries *******
+
+# ***************************************
+
+
+
+# ******************************************************************************
+
+
+
+# ************************************************************************
+
+# ***** First: upgrade only controller if controller code not G01.002 *****
+
+# ************************************************************************
+
+# CtrlSWVer = " < G01"          # This line manually modified only.
+#!SMSpecBegin (CtrlSWVer < "G01") # This line generated automatically.
+    #!SMSpecSysRel "09.00.00.0030 Auto (SCM)" # This line generated automatically.
+
+    # System Controller Modules
+    #!SMSpec    = 1187010L1,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1
+    #!SMSpec    = 1187010L1A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module A
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1A
+    #!SMSpec    = 1187010L1M,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module M
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1M
+    #!SMSpec    = 1187010L1Q,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Q
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1Q
+    #!SMSpec    = 1187010L1R,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module R
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1R
+    #!SMSpec    = 1187010L1V,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module V
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1V
+    #!SMSpec    = 1188010E1,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010E1
+    #!SMSpec    = 1187010G2,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G2
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2
+    #!SMSpec    = 1187010G2A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module A
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2A
+    #!SMSpec    = 1187010G2R,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module R
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2R
+    #!SMSpec    = 1187010G2V,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module V
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2V
+    #!SMSpec    = 1188010G2,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l G2
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010G2
+    #!SMSpec    = 1187011G1,       A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1
+    #!SMSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1
+    #!SMSpec    = 1187011G1C,      A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 C
+    #!SMSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1C
+    #!SMSpec    = 1187011G1Q,      A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 Q
+    #!SMSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1Q
+    #!SMSpec    = 1188011G1,       A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 Int'l
+    #!SMSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1188011G1
+    #!SMSpec    = 1187016F1-SCM,   A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #System Control Module MSM 20 SCM
+    #!SMSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187016F1-SCM
+    #!SMSpec    = 1187016F1R-SCM,  A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #SCM
+    #!SMSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187016F1R-SCM
+    #!SMSpec    = 1187010G3,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G3
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G3
+    #!SMSpec    = 1187010G3A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G3 A
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G3A
+    #!SMSpec    = 1188010G3,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l G3
+    #!SMSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010G3
+    #!SMSpec    = 1187014F1-SCM,   A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #System Control Module
+    #!SMSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187014F1-SCM
+#!SMSpecEnd = 1D19C,37AC
+
+
+
+
+# ***************************************
+
+# ***** Start of ModuleSpec entries *****
+
+# ***************************************
+
+
+
+#MODULE = <Part Number>,<Product Revision Range>,<Firmware Revision>,<Flash Image File name>,<Flash Image Unique Check Length> <#Comments>
+
+#********************************************************************************
+
+# TA5000 System Release AUC Modules
+
+
+
+# System Controller Modules
+
+ModuleSpec = 1187010L1,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1
+
+ModuleSpec = 1187010L1A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module A
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1A
+
+ModuleSpec = 1187010L1M,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module M
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1M
+
+ModuleSpec = 1187010L1Q,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Q
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1Q
+
+ModuleSpec = 1187010L1R,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module R
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1R
+
+ModuleSpec = 1187010L1V,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module V
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010L1V
+
+ModuleSpec = 1188010E1,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010E1
+
+ModuleSpec = 1187010G2,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G2
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2
+
+ModuleSpec = 1187010G2A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module A
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2A
+
+ModuleSpec = 1187010G2R,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module R
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2R
+
+ModuleSpec = 1187010G2V,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module V
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G2V
+
+ModuleSpec = 1188010G2,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l G2
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010G2
+
+ModuleSpec = 1187011G1,       A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1
+#!MSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1
+
+ModuleSpec = 1187011G1C,      A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 C
+#!MSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1C
+
+ModuleSpec = 1187011G1Q,      A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 Q
+#!MSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1187011G1Q
+
+ModuleSpec = 1188011G1,       A-YY, J00.028,       1187011g1_j00_028.bin,     0       #System Control Module 011 G1 Int'l
+#!MSpecInfo= 3359584,1a96570e,e36b,0,0,"","" # 1188011G1
+
+ModuleSpec = 1187016F1-SCM,   A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #System Control Module MSM 20 SCM
+#!MSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187016F1-SCM
+
+ModuleSpec = 1187016F1R-SCM,  A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #SCM
+#!MSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187016F1R-SCM
+
+ModuleSpec = 1187010G3,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G3
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G3
+
+ModuleSpec = 1187010G3A,      A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module G3 A
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1187010G3A
+
+ModuleSpec = 1188010G3,       A-YY, J00.028,       1187010l1_j00_028.bin,     0       #System Control Module Int'l G3
+#!MSpecInfo= 2961296,1775f7ad,958d,0,0,"","" # 1188010G3
+
+ModuleSpec = 1187014F1-SCM,   A-YY, J00.028,       1187016F1_SCM_j00_028.bin, 0       #System Control Module
+#!MSpecInfo= 3096660,1881a18b,f8aa,0,0,"","" # 1187014F1-SCM
+
+
+
+# Switch Modules 1G
+
+ModuleSpec = 1187020L1,       A-YY, J00.0027,      1187020L1-J000027.glb,     0       #Switch Module
+#!MSpecInfo= 4181876,217b323b,8f68,0,0,"","" # 1187020L1
+
+ModuleSpec = 1187020E1,       A-YY, J00.0027,      1187020E1-J000027.glb,     0       #Switch Module
+#!MSpecInfo= 4918750,27683d4c,6464,0,0,"","" # 1187020E1
+
+ModuleSpec = 1187020G1,       A-YY, J00.0027,      1187020G1-J000027.glb,     0       #Switch Module 2GE No RG
+#!MSpecInfo= 8815240,46aa3f6a,9e2d,0,0,"","" # 1187020G1
+
+ModuleSpec = 1187020G2,       A-YY, J00.0027,      1187020G1-J000027.glb,     0       #Switch Module 2GE RG
+#!MSpecInfo= 8815240,46aa3f6a,9e2d,0,0,"","" # 1187020G2
+
+
+
+# Switch Modules 10G
+
+ModuleSpec = 1187025G1,       A-YY, J00.0027,      1187025G1-J000027.glb,     0       #Switch Module-2.5 10G No RG
+#!MSpecInfo= 9100189,490ffbf4,8288,0,0,"","" # 1187025G1
+
+ModuleSpec = 1187025G2,       A-YY, J00.0027,      1187025G1-J000027.glb,     0       #Switch Module-2.5 10G RG
+#!MSpecInfo= 9100189,490ffbf4,8288,0,0,"","" # 1187025G2
+
+ModuleSpec = 1187030G1,       A-YY, J00.0027,      1187030G1-J000027.glb,     0       #Switch Module-5 10G No RG
+#!MSpecInfo= 9861521,4f2bc5dc,ad0e,0,0,"","" # 1187030G1
+
+ModuleSpec = 1187030G2,       A-YY, J00.0027,      1187030G1-J000027.glb,     0       #Switch Module-5 10G RG
+#!MSpecInfo= 9861521,4f2bc5dc,ad0e,0,0,"","" # 1187030G2
+
+ModuleSpec = 1187030G3,       A-YY, J00.0027,      1187030G3-J000027.glb,     0       #Switch Module-5 10G No RG
+#!MSpecInfo= 9887424,4f5279dd,d104,0,0,"","" # 1187030G3
+
+ModuleSpec = 1187040F1,       A-YY, J00.0027,      1187040F1-J000027.glb,     0       #Switch Module 4-10GE
+#!MSpecInfo= 11589726,5d37048d,84b3,0,0,"","" # 1187040F1
+
+ModuleSpec = 1187016F1-SM,    A-YY, J00.0027,      1187016F1-J000027.glb,     0       #MSM 20 SM
+#!MSpecInfo= 11428783,5a05dcd1,5fc,0,0,"","" # 1187016F1-SM
+
+ModuleSpec = 1187016F1R-SM,   A-YY, J00.0027,      1187016F1-J000027.glb,     0       #MSM 20 SM
+#!MSpecInfo= 11428783,5a05dcd1,5fc,0,0,"","" # 1187016F1R-SM
+
+ModuleSpec = 1187031F1,       A-YY, J00.0027,      1187031F1-J000027.glb,     0       #BCM SM 10GE
+#!MSpecInfo= 11315762,5af6d45a,9466,0,0,"","" # 1187031F1
+
+
+
+# BBDLC Modules
+
+ModuleSpec = 1187100L1,       A-YY, J00.0002,      1187100L1-J000002.glb,     0       #Combo A2+ 24 Port
+#!MSpecInfo= 5013372,281156bd,2c23,0,0,"","" # 1187100L1
+
+ModuleSpec = 1187100L2,       A-YY, J00.0002,      1187100L2-J000002.glb,     0       #Combo A2+ 24 Port
+#!MSpecInfo= 5177566,295d3002,e580,0,0,"","" # 1187100L2
+
+ModuleSpec = 1187120L1,       A-YY, J00.0002,      1187120L1-J000002.glb,     0       #Combo V2 24 Port
+#!MSpecInfo= 8290985,41a01418,cd5a,0,0,"","" # 1187120L1
+
+ModuleSpec = 1187130F1,       A-YY, J00.0030,      1187130F1-J000030.glb,     0       #Combo V2 48 Port
+#!MSpecInfo= 9566237,4bbf2adc,60a3,0,0,"","" # 1187130F1
+
+ModuleSpec = 1187130F2,       A-YY, J00.0027,      1187130F2-J000027.glb,     0       #Combo V2 48 Port non-vectoring
+#!MSpecInfo= 9038680,479724cd,7c3b,0,0,"","" # 1187130F2
+
+ModuleSpec = 1187150L1,       A-YY, J00.0002,      1187150L1-J000002.glb,     0       #RPOTS 24 Port
+#!MSpecInfo= 3669100,1d6d13f3,6413,0,0,"","" # 1187150L1
+
+ModuleSpec = 1187520E1,       A-YY, G40.0003,      1187520E1-G400003.glb,     0       #RPR 2.5G
+#!MSpecInfo= 3064010,18405569,31e7,0,0,"","" # 1187520E1
+
+ModuleSpec = 1187550E1,       A-YY, J00.0002,      1187550E1-J000002.glb,     0       #4-Port GigE LM
+#!MSpecInfo= 1876819,f0f9633,3cfa,0,0,"","" # 1187550E1
+
+ModuleSpec = 1187550G2,       A-YY, J00.0002,      1187550G2-J000002.glb,     0       #4-Port GigE LM 2nd Gen
+#!MSpecInfo= 4837231,26d1d5fc,53c6,0,0,"","" # 1187550G2
+
+ModuleSpec = 1187800L1,       A-YY, J00.0002,      1187800L1-J000002.glb,     0       #Voice Gateway
+#!MSpecInfo= 4418464,23107cbc,84d4,0,0,"","" # 1187800L1
+
+ModuleSpec = 1187801L1,       A-YY, J00.0002,      1187801L1-J000002.glb,     0       #T1 32 Port Pseudowire
+#!MSpecInfo= 2491964,13cc6be6,3fc5,0,0,"","" # 1187801L1
+
+ModuleSpec = 1187160F1,       A-YY, J00.0002,      1187160F1-J000002.glb,     0       #24-Port CPOTS LM
+#!MSpecInfo= 2368787,12cacc75,d43,0,0,"","" # 1187160F1
+
+
+
+# IPDSLAM Modules
+
+ModuleSpec = 1187101E1,       A-YY, J00.0002,      1187101E1-J000002.glb,     0       #ADSL2+ 32 Port
+#!MSpecInfo= 3160427,191ed1d1,d5e0,0,0,"","" # 1187101E1
+
+ModuleSpec = 1187102G1,       A-YY, J00.0002,      1187102G1-J000002.glb,     0       #ADSL2+ 32 Port CAT5e
+#!MSpecInfo= 3160501,191cbbfa,6b2e,0,0,"","" # 1187102G1
+
+ModuleSpec = 1188101E1,       A-YY, J00.0002,      1188101E1-J000002.glb,     0       #ADSL2+ 32 Port Int'l
+#!MSpecInfo= 3176967,19451003,713,0,0,"","" # 1188101E1
+
+ModuleSpec = 1187121L1,       A-YY, J00.0002,      1187121L1-J000002.glb,     0       #VDSL2 32 Port
+#!MSpecInfo= 6555048,33b08b2a,31b0,0,0,"","" # 1187121L1
+
+ModuleSpec = 1187121F2,       A-YY, J00.0002,      1187121F2-J000002.glb,     0       #VDSL2 32 Port
+#!MSpecInfo= 7120983,3860a493,d1a4,0,0,"","" # 1187121F2
+
+ModuleSpec = 1187122G1,       A-YY, J00.0002,      1187122G1-J000002.glb,     0       #32-Port VDSL2 DMT AM
+#!MSpecInfo= 5414278,2a778132,a274,0,0,"","" # 1187122G1
+
+ModuleSpec = 1188122G1,       A-YY, J00.0002,      1188122G1-J000002.glb,     0       #VDSL2 32 Port Int'l
+#!MSpecInfo= 5414278,2a777ef0,260e,0,0,"","" # 1188122G1
+
+ModuleSpec = 1187133F1,       A-YY, J00.0030,      1187133F1-J000030.glb,     0       #VDSL2 48 Port
+#!MSpecInfo= 7480768,3afba8e2,8a90,0,0,"","" # 1187133F1
+
+ModuleSpec = 1187133F2,       A-YY, J00.0030,      1187133F2-J000030.glb,     0       #VDSL2 48 Port non-vectoring
+#!MSpecInfo= 6949130,36c31901,ad36,0,0,"","" # 1187133F2
+
+ModuleSpec = 1187190F1,       A-YY, J00.0023,      1187190F1Lnx-J000023.sef,  0       #VDSL2 Vectory 192 RM split
+#!MSpecInfo= 9348268,46f80fa3,c0ec,0,0,"","" # 1187190F1
+
+
+
+# ATM Aggregation and Interworking
+
+ModuleSpec = 1187200L1,       A-YY, G43.0031,      1187200L1-G430031.glb,     0       #ATM DS3 1-Port
+#!MSpecInfo= 3279310,1a3fe951,3a85,0,0,"","" # 1187200L1
+
+ModuleSpec = 1187201L1,       A-YY, G43.0031,      1187201L1-G430031.glb,     0       #ATM DS3 4-Port
+#!MSpecInfo= 3503573,1bfa0064,d657,0,0,"","" # 1187201L1
+
+ModuleSpec = 1187210E1,       A-YY, G43.0031,      1187210E1-G430031.glb,     0       #ATM OC3 1-Port
+#!MSpecInfo= 3257468,1a19823f,cbe0,0,0,"","" # 1187210E1
+
+ModuleSpec = 1187211E1,       A-YY, G43.0031,      1187211E1-G430031.glb,     0       #ATM OC3 4-Port
+#!MSpecInfo= 3257307,1a168ee1,5931,0,0,"","" # 1187211E1
+
+ModuleSpec = 1187803G1,       A-YY, G43.0031,      1187803G1-G430031.glb,     0       #ATM DS1 IMA 32-Port
+#!MSpecInfo= 4154790,21259e6a,c227,0,0,"","" # 1187803G1
+
+
+
+# Business Services Migration
+
+ModuleSpec = 1187220G1,       A-YY, G43.0030,      1187220G1-G430030.glb,     0       #3-Port Ch DS3 MLPPP
+#!MSpecInfo= 5286197,2a45c42d,64b,0,0,"","" # 1187220G1
+
+ModuleSpec = 1187803G2,       A-YY, G43.0030,      1187803G2-G430030.glb,     0       #32-Port DS1 MLPPP
+#!MSpecInfo= 4020478,20156d2e,b17a,0,0,"","" # 1187803G2
+
+ModuleSpec = 1188803G2,       A-YY, G43.0030,      1188803G2-G430030.glb,     0       #32-Port E1 MLPPP
+#!MSpecInfo= 3855383,1ec0e604,760c,0,0,"","" # 1188803G2
+
+
+
+# FTTP
+
+ModuleSpec = 1187500E1,       A-YY, G40.0040,      1187500E1-G400040.glb,     0       #GPON OLT 2-Port SFF
+#!MSpecInfo= 4354600,226182d0,a322,0,0,"","" # 1187500E1
+
+ModuleSpec = 1187501G1,       A-YY, J00.0030,      1187501G1-J000030.glb,     0       #GPON OLT 2-Port SFP
+#!MSpecInfo= 7035518,38131645,4417,0,0,"","" # 1187501G1
+
+ModuleSpec = 1187502F1,       A-YY, J00.0030,      1187502F1-J000030.glb,     0       #GPON OLT 4-Port SFP
+#!MSpecInfo= 9995597,504ae5d9,e029,0,0,"","" # 1187502F1
+
+ModuleSpec = 1187502F2,       A-YY, J00.0030,      1187502F2-J000030.glb,     0       #GPON OLT 4-Port SFP
+#!MSpecInfo= 12981671,65da5b52,1d6b,0,0,"","" # 1187502F2
+
+ModuleSpec = 1187503F1,       A-YY, J00.0030,      1187503F1-J000030.glb,     0       #GPON OLT 8-Port SFP
+#!MSpecInfo= 14690080,730a9087,fd07,0,0,"","" # 1187503F1
+
+ModuleSpec = 1187503F2,       A-YY, J00.0030,      1187503F2-J000030.glb,     0       #GPON OLT 8-Port SFP
+#!MSpecInfo= 16451064,8090a8c4,6975,0,0,"","" # 1187503F2
+
+ModuleSpec = 1187560F1,       A-YY, J00.0030,      1187560F1-J000030.glb,     0       #Active Eth 24-Port
+#!MSpecInfo= 6643491,35c0db12,6578,0,0,"","" # 1187560F1
+
+ModuleSpec = 1187561F1,       A-YY, J00.0030,      1187561F1-J000030.glb,     0       #Active Ethernet SS
+#!MSpecInfo= 8849677,47a62ab9,f378,0,0,"","" # 1187561F1
+
+ModuleSpec = 1187562F1,       A-YY, J00.0030,      1187562F1-J000030.glb,     0       #Active Ethernet SS 2nd Gen
+#!MSpecInfo= 8850955,47a8afd8,573f,0,0,"","" # 1187562F1
+
+
+
+# Ethernet over Copper / TDM
+
+ModuleSpec = 1187180L1,       A-YY, J00.0002,      1187180L1-J000002.glb,     0       #32-Port SHDSL EFM AM
+#!MSpecInfo= 3657214,1ccbbf8b,ba95,0,0,"","" # 1187180L1
+
+ModuleSpec = 1187180G1,       A-YY, J00.0002,      1187180G1-J000002.glb,     0       #32-Port SHDSL EFM AM
+#!MSpecInfo= 3657215,1ccac981,bcfe,0,0,"","" # 1187180G1
+
+ModuleSpec = 1187181G1,       A-YY, J00.0002,      1187181G1-J000002.glb,     0       #24-Port SHDSL EFM AM
+#!MSpecInfo= 3656949,1ccfdb47,d908,0,0,"","" # 1187181G1
+
+ModuleSpec = 1187182F1,       A-YY, J00.0002,      1187182F1-J000002.glb,     0       #32-Port SHDSL EFM MLT
+#!MSpecInfo= 4258813,215fc7a5,8a12,0,0,"","" # 1187182F1
+
+ModuleSpec = 1188180E1,       A-YY, J00.0002,      1188180E1-J000002.glb,     0       #32-Port SHDSL EFM AM Int'l
+#!MSpecInfo= 3657215,1ccb300e,5931,0,0,"","" # 1188180E1
+
+ModuleSpec = 1187802L1,       A-YY, J00.0002,      1187802L1-J000002.glb,     0       #32-Port DS1 EFM AM
+#!MSpecInfo= 3242134,1985314d,403e,0,0,"","" # 1187802L1
+
+ModuleSpec = 1188802G1,       A-YY, J00.0002,      1188802G1-J000002.glb,     0       #32-Port E1 EFM AM
+#!MSpecInfo= 3241179,197f02b9,607d,0,0,"","" # 1188802G1
+
+ModuleSpec = 1187250G1,       A-YY, J00.0002,      1187250G1-J000002.glb,     0       #EFM Bonding Protect Module
+#!MSpecInfo= 3141332,18adf356,59d8,0,0,"","" # 1187250G1
+
+ModuleSpec = 1187260G1,       A-YY, J00.0002,      1187260G1-J000002.glb,     0       #4-Port CC DS3 EFM LM
+#!MSpecInfo= 2929809,171e28aa,b73,0,0,"","" # 1187260G1
+
+ModuleSpec = 1187810G1,       A-YY, J00.0002,      1187810G1-J000002.glb,     0       #3-Port Ch DS3 EFM LM
+#!MSpecInfo= 3293483,19f241f7,fa3e,0,0,"","" # 1187810G1
+
+ModuleSpec = 1187300L1,       A-YY, J00.0002,      1187300L1-J000002.glb,     0       #8-Port T1 EFM AM
+#!MSpecInfo= 2853931,1688dfd2,7d64,0,0,"","" # 1187300L1
+
+ModuleSpec = 1187310L1,       A-YY, J00.0002,      1187310L1-J000002.glb,     0       #8-Port HDSL4 EFM AM
+#!MSpecInfo= 3116735,18b1ea66,3af7,0,0,"","" # 1187310L1
+
+ModuleSpec = 1187552G1,       A-YY, J00.0002,      1187552G1-J000002.glb,     0       #8-Port GigE LM
+#!MSpecInfo= 5391836,2b4fd894,6b37,0,0,"","" # 1187552G1
+
+
+
+
+
+# Special entry for The Fan module so it is ignored during an auto upgrade
+
+ModuleSpec = 1187080L1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187080L1
+
+ModuleSpec = 1187080G1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187080G1
+
+ModuleSpec = 1187080G2,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187080G2
+
+ModuleSpec = 1187080G3,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187080G3
+
+ModuleSpec = 1187094F1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187094F1
+
+ModuleSpec = 1188085E1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1188085E1
+
+ModuleSpec = 1188085G3,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1188085G3
+
+ModuleSpec = 1187090G1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187090G1
+
+ModuleSpec = 1187090E1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187090E1
+
+ModuleSpec = 1188090G1,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1188090G1
+
+ModuleSpec = 1187090G3,       A-YY, NotApplicable, NotApplicable,             9999999 #FAN
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187090G3
+
+
+
+# Special entry for the splitter modules so it is ignored during an auto upgrade
+
+ModuleSpec = 1187105L1,       A-YY, NotApplicable, NotApplicable,             9999999 #ADSL2+ Splitter
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187105L1
+
+ModuleSpec = 1187105L2,       A-YY, NotApplicable, NotApplicable,             9999999 #ADSL2+ Splitter No MTA
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187105L2
+
+ModuleSpec = 1188105E1,       A-YY, NotApplicable, NotApplicable,             9999999 #ADSL2+ Splitter No MTA
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1188105E1
+
+ModuleSpec = 1187125L1,       A-YY, NotApplicable, NotApplicable,             9999999 #VDSL2  Splitter
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187125L1
+
+ModuleSpec = 1187126G1,       A-YY, NotApplicable, NotApplicable,             9999999 #VDSL2  Splitter
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187126G1
+
+ModuleSpec = 1187126G2,       A-YY, NotApplicable, NotApplicable,             9999999 #VDSL2  Splitter
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1187126G2
+
+ModuleSpec = 1188126G1,       A-YY, NotApplicable, NotApplicable,             9999999 #VDSL2  SPlitter
+#!MSpecInfo= 1,1,1021,0,0,"","" # 1188126G1
+
+
+
+#!SRA01End = 2C642,FC7F
+
+ModuleSpecEnd = 45805,48DA
+
+
+
+
+# File 'TA5000-0900000030.auc' revalidated on 2015/07/21 at 11:27:17 by buildagent@corp-bs37.adtran.com v00.24 ###END###
